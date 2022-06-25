@@ -4,3 +4,19 @@ A: A Transpiler
 React, Es6+  --> HTML, CSS & JS
 
 2>What is Webpack
+A: Bundling of HTML, CSS & JS files into a single files
+
+3>What is NPM?
+
+(Node Package Manager)
+npm is the package manager for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs.
+
+
+3>What is Library?
+is a tool/ reusable code any one can use 
+
+
+
+
+3>What is React?
+A: React is a JavaScript library for building user interfaces
