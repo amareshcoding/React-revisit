@@ -1,0 +1,11 @@
+.button_comp{
+     padding: 12px;
+     padding-left: 30px;
+     padding-right: 30px;
+     font-size: 18px;
+     font-weight: bold;
+     background-color: crimson;
+     border: 2px solid crimson;
+     border-radius: 3px;
+     color: white;
+}
