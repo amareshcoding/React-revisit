@@ -16,19 +16,25 @@ https://www.npmjs.com/
 npm is the package manager for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs.
 
 
-3>What is Library?
+4>What is Library?
 is a tool/ reusable code any one can use 
 
 
 
 
-3>What is React?
+5>What is React? https://reactjs.org/
 A: React is a JavaScript library for building user interfaces
-https://reactjs.org/
-
 //Open Source
+//Created and used by Facebook
+
+6>Component -- Function that returns JSX
+
 
 
 
 Lecture lists (instructor - Ritesh Firodiya)
 React Intro: https://course.masaischool.com/lectures/27717
+
+
+
+
