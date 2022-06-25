@@ -1,0 +1,6 @@
+1> What is Babel ?
+
+A: A Transpiler
+React, Es6+  --> HTML, CSS & JS
+
+2>What is Webpack
