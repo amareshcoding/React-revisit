@@ -32,7 +32,11 @@ HTML/XML code inside JS code
 
 7>Component -- A JavaScript Function that returns HTML/JSX code
 
-8>What is Virtual DOM
+8>What is Virtual DOM?
+A shallow copy of actual DOM
+compare and only update what needs to update
+
+9>what is Hooks?
 
 
 
