@@ -36,7 +36,18 @@ HTML/XML code inside JS code
 A shallow copy of actual DOM
 compare and only update what needs to update
 
+9> What is State?
+state is a info that is changing on DOM
+
 9>what is Hooks?
+State Managegment
+hooks are set of inbuild react function used to interact with VDOM
+
+10>useState();
+const [count, setCount] = useState(0);
+returns two things in an array
+count == variaable;
+setCount == Function to change the variable value and update vertual DOM
 
 
 
