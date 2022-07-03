@@ -23,12 +23,16 @@ is a tool/ reusable code any one can use
 
 
 5>What is React? https://reactjs.org/
-A: React is a JavaScript library for building user interfaces
+A: React is a JavaScript library for building user interfaces(UI)
 //Open Source
 //Created and used by Facebook
 
-6>Component -- Function that returns JSX
+6> What is JSX?
+HTML/XML code inside JS code
 
+7>Component -- A JavaScript Function that returns HTML/JSX code
+
+8>What is Virtual DOM
 
 
 

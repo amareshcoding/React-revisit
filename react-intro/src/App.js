@@ -1,6 +1,7 @@
 import './App.css';
 import Button from './components/Button';
 import Card from './components/Card';
+import Counter from './components/Counter';
 
 function App() {
   const carddata = [{
@@ -12,21 +13,23 @@ function App() {
   return (
     <div>
       <h1>Hello From React App</h1>
-      <div>
+      {/* <div>
         <Button text="Submit" path="https://reactjs.org/" /> <br/> 
 
         <Button text="Sign In" path="https://reactjs.org/" /> <br/> 
 
         <Button text="Sign Up" path="https://reactjs.org/" />
-      </div>
+      </div> */}
 
-      <div>
+      {/* <div>
         {
           carddata.map(e =>{
             return <Card src={e.src} head={e.head} desc={e.desc}/>
           })
         }
-      </div>
+      </div> */}
+
+      <Counter/>
 
     </div>
   );
