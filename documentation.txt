@@ -50,10 +50,27 @@ count == variaable;
 setCount == Function to change the variable value and update vertual DOM
 
 
-
+FT-WEB-17(RCT101)
 Lecture lists (instructor - Ritesh Firodiya)
 React Intro: https://course.masaischool.com/lectures/27717
 State, Props And Conditional Rendering: https://course.masaischool.com/lectures/27774
+Listing keys, conditional rendering: https://course.masaischool.com/lectures/27873
+React State Management and Uplifiting: https://course.masaischool.com/lectures/27922
+PSC: https://course.masaischool.com/lectures/28019
+UseEffect -1: https://course.masaischool.com/lectures/28174
+UseEffect -2: https://course.masaischool.com/lectures/28175
+Events, useRef and Forms: https://course.masaischool.com/lectures/28176
+Styling and other libraries: https://course.masaischool.com/lectures/28181
+EVAL 1 (Optional): https://course.masaischool.com/lectures/28358
+Routing 1: https://course.masaischool.com/lectures/28470
+Context API: https://course.masaischool.com/lectures/28471
+Routing 2: https://course.masaischool.com/lectures/28472
+Routing Deployment: https://course.masaischool.com/lectures/28697
+PSC: https://course.masaischool.com/lectures/28700
+
+
+
+
 
 
 
