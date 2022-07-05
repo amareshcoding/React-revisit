@@ -2,7 +2,7 @@ import './App.css';
 import Button from './components/Button';
 import Card from './components/Card';
 import Counter from './components/Counter';
-import Todo from './components/Todo';
+import Todo from './components/todo/Todo';
 
 function App() {
   const carddata = [{

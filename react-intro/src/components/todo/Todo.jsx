@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import '../style/Todo.css';
+import '../../style/Todo.css';
 import Todoitem from './Todoitem';
 
 const Todo = () => {
