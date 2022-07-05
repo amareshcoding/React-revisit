@@ -1,5 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
+import '../style/Todo.css';
+import Todoitem from './Todoitem';
 
 const Todo = () => {
   const [newtodo, setNewtodo] = useState('');
@@ -15,16 +17,19 @@ const Todo = () => {
   //     });
   //     setTodo(todo);
   //   };
+  const deleteHandle = (todoid) => {
+    const afterDelete = todo.filter((e) => {
+      return e.id !== todoid;
+    });
+
+    setTodo(afterDelete);
+  };
 
   const Showtodo = () => {
     return (
-      <div>
+      <div className="todo_container">
         {todo.map((e) => {
-          return (
-            <div key={e.id}>
-              <h4>{e.item}</h4>
-            </div>
-          );
+          return <Todoitem key={e.id} todo={e} onDelete={deleteHandle} />;
         })}
       </div>
     );
@@ -43,7 +48,7 @@ const Todo = () => {
           setTodo([
             ...todo,
             {
-              id: new Date(),
+              id: Date.now(),
               item: newtodo,
               isDone: false,
             },

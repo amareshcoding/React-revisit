@@ -1,0 +1,37 @@
+
+
+
+.todo_container{
+     margin-left:38% ;
+}
+.todo_div{
+     height: 50px;
+     width: 300px;
+     display: flex;
+     justify-content: space-evenly;
+     background-color: skyblue;
+     border-radius: 4px;
+     margin: 1rem;
+     /* text-align: center; */
+     align-items: center;
+}
+.todo_text{
+     width: 70%;
+     color: black;
+     text-align: left;
+     /* background-color: blue; */
+}
+.todo_btn{
+     height: 2rem;
+     border: 0;
+     margin-top: .6rem;
+     border-radius: 5px;
+     background-color: rgb(248, 140, 140);
+     color: black;
+}
+.striked{
+     width: 70%;
+     color: black;
+     text-align: left;
+     text-decoration: line-through;
+}

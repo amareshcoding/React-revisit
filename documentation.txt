@@ -53,6 +53,7 @@ setCount == Function to change the variable value and update vertual DOM
 
 Lecture lists (instructor - Ritesh Firodiya)
 React Intro: https://course.masaischool.com/lectures/27717
+State, Props And Conditional Rendering: https://course.masaischool.com/lectures/27774
 
 
 
