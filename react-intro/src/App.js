@@ -1,6 +1,6 @@
 import './App.css';
 import Button from './components/button/Button';
-import Card from './components/Card';
+import Card from './components/card/Card';
 import Counter from './components/counter/Counter';
 import Todo from './components/todo/Todo';
 

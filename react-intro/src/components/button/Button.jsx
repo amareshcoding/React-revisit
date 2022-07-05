@@ -1,4 +1,4 @@
-import style from '../style/Button.module.css';
+import style from '../../style/Button.module.css';
 // import Link from 'react-dom';
 
 const Button = ({ text, path }) => {

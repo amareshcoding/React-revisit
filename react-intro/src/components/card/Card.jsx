@@ -1,4 +1,4 @@
-import style from '../style/Card.module.css';
+import style from '../../style/Card.module.css';
 const Card = ({ src, head, desc }) => {
   return (
     <>
