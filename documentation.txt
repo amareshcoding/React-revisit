@@ -4,7 +4,7 @@ React, Es6+  --> HTML, CSS & JS
 https://babeljs.io/
 
 
-2>What is Webpack
+2>What is Webpack?
 A: Bundling of HTML, CSS & JS files into a single files
 https://webpack.js.org/
 
@@ -35,19 +35,38 @@ HTML/XML code inside JS code
 8>What is Virtual DOM?
 A shallow copy of actual DOM
 compare and only update what needs to update
+Its a Ideal concept where we keep a shallow copy of actual dom in memory and
+use it to compare changes and only update those shaced to actual dom
+-react-dom dose this work in React
+
 
 9> What is State?
 state is a info that is changing on DOM
+changable variables that need to be updated on DOM in a component,
+ and which are created using useState hook.
 
-9>what is Hooks?
+
+10>what is Hooks?
 State Managegment
-hooks are set of inbuild react function used to interact with VDOM
+hooks are set of inbuild react function that helps us to interact with state of a component
+eg - useState();  creation and updation
 
-10>useState();
+
+11>useState();
+is a hook in react used to create and update state variable.
 const [count, setCount] = useState(0);
 returns two things in an array
 count == variaable;
 setCount == Function to change the variable value and update vertual DOM
+
+12> stateless/pure component?
+if a component has nothing that changes
+
+13>state-full component?
+a component which has a state
+
+
+
 
 
 FT-WEB-17(RCT101)
