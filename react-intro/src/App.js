@@ -38,7 +38,7 @@ function App() {
       <Todo/>
       <hr/>
       <div>
-        <button onClick={()=>setToggle(!toggle)}>toggle component Counter/Todo</button>
+        <button onClick={()=>setToggle(!toggle)}>{toggle? 'Show Todo' : 'Show Counter'}</button>
         {toggle ? <Counter/> : <Todo/>}
       </div>
     </div>

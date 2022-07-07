@@ -17,6 +17,7 @@ const Todo = () => {
   //     });
   //     setTodo(todo);
   //   };
+
   const deleteHandle = (todoid) => {
     const afterDelete = todo.filter((e) => {
       return e.id !== todoid;
@@ -36,7 +37,7 @@ const Todo = () => {
   };
 
   return (
-    <div>
+    <div style={{margin:10}}>
       <input
         type="text"
         onChange={(e) => setNewtodo(e.target.value)}
@@ -45,15 +46,17 @@ const Todo = () => {
       <button
         onClick={() => {
           // addTodo();
-          setTodo([
-            ...todo,
-            {
-              id: Date.now(),
-              item: newtodo,
-              isDone: false,
-            },
-          ]);
-          setNewtodo('');
+          if (newtodo) {
+            setTodo([
+              ...todo,
+              {
+                id: Date.now(),
+                item: newtodo,
+                isDone: false,
+              },
+            ]);
+            setNewtodo('');
+          }
         }}
       >
         Add Todo
