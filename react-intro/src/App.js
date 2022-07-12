@@ -6,6 +6,7 @@ import Counter from './components/counter/Counter';
 import Parent from './components/Propssending/Parent';
 import Todo from './components/todo/Todo';
 
+
 function App() {
 
   const carddata = [{
@@ -34,16 +35,17 @@ function App() {
         }
       </div> */}
 
-      <Counter/>
+      {/* <Counter/>
       <hr/>
       <Todo/>
       <hr/>
+
       <div>
         <button onClick={()=>setToggle(!toggle)}>{toggle? 'Show Todo' : 'Show Counter'}</button>
         {toggle ? <Counter/> : <Todo/>}
-      </div>
+      </div> */}
 
-      {/* <Parent/> */}
+      <Parent/>
     </div>
   );
 }

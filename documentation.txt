@@ -68,6 +68,9 @@ a component which has a state
 14>passing Props?
 passing information to a child component
 
+15>Stateuplifting();
+passing information from child to parent
+
 
 
 FT-WEB-17(RCT101)
