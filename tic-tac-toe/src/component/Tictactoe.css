@@ -1,0 +1,31 @@
+.tic_tac_toe {
+     text-align: center;
+     
+}
+.tic_tac_toe_container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+}
+
+.tic_tac_toe_rows {
+  display: flex;
+}
+.box_component {
+  padding: 30px;
+  font-size: 50px;
+  color: aliceblue;
+}
+.bg-r{
+     border-right: 10px solid #61dafb;
+}
+.bg-b{
+     border-bottom: 10px solid #61dafb;
+}
+.bg-l{
+     border-left: 10px solid #61dafb;
+}
+.bg-t{
+     border-top: 10px solid #61dafb;
+}
