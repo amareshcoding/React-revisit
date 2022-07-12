@@ -3,6 +3,7 @@ import './App.css';
 import Button from './components/button/Button';
 import Card from './components/card/Card';
 import Counter from './components/counter/Counter';
+import Parent from './components/Propssending/Parent';
 import Todo from './components/todo/Todo';
 
 function App() {
@@ -33,14 +34,16 @@ function App() {
         }
       </div> */}
 
-      <Counter/>
+      {/* <Counter/>
       <hr/>
       <Todo/>
       <hr/>
       <div>
         <button onClick={()=>setToggle(!toggle)}>{toggle? 'Show Todo' : 'Show Counter'}</button>
         {toggle ? <Counter/> : <Todo/>}
-      </div>
+      </div> */}
+
+      <Parent/>
     </div>
   );
 }

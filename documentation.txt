@@ -65,15 +65,16 @@ if a component has nothing that changes
 13>state-full component?
 a component which has a state
 
-
+14>passing Props?
+passing information to a child component
 
 
 
 FT-WEB-17(RCT101)
 Lecture lists (instructor - Ritesh Firodiya)
-React Intro: https://course.masaischool.com/lectures/27717
-State, Props And Conditional Rendering: https://course.masaischool.com/lectures/27774
-Listing keys, conditional rendering: https://course.masaischool.com/lectures/27873
+React Intro: https://course.masaischool.com/lectures/27717 --done
+State, Props And Conditional Rendering: https://course.masaischool.com/lectures/27774 --done
+Listing keys, conditional rendering: https://course.masaischool.com/lectures/27873 --done
 React State Management and Uplifiting: https://course.masaischool.com/lectures/27922
 PSC: https://course.masaischool.com/lectures/28019
 UseEffect -1: https://course.masaischool.com/lectures/28174

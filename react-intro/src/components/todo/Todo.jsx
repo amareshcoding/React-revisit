@@ -5,7 +5,6 @@ import Todoitem from './Todoitem';
 
 const Todo = () => {
   const [newtodo, setNewtodo] = useState('');
-  //   console.log('newtodo: ', newtodo);
   const [todo, setTodo] = useState([]);
   console.log('todo: ', todo);
 
