@@ -34,16 +34,16 @@ function App() {
         }
       </div> */}
 
-      {/* <Counter/>
+      <Counter/>
       <hr/>
       <Todo/>
       <hr/>
       <div>
         <button onClick={()=>setToggle(!toggle)}>{toggle? 'Show Todo' : 'Show Counter'}</button>
         {toggle ? <Counter/> : <Todo/>}
-      </div> */}
+      </div>
 
-      <Parent/>
+      {/* <Parent/> */}
     </div>
   );
 }

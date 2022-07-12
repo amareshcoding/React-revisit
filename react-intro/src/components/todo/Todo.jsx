@@ -1,12 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
 import '../../style/Todo.css';
-import Todoitem from './Todoitem';
+import Todoinput from './Todoinput';
+import Todolist from './Todolist';
 
 const Todo = () => {
-  const [newtodo, setNewtodo] = useState('');
   const [todo, setTodo] = useState([]);
-  console.log('todo: ', todo);
 
   //   const addTodo = () => {
   //     todo.push({
@@ -29,37 +28,15 @@ const Todo = () => {
     return (
       <div className="todo_container">
         {todo.map((e) => {
-          return <Todoitem key={e.id} todo={e} onDelete={deleteHandle} />;
+          return <Todolist key={e.id} todo={e} onDelete={deleteHandle} />;
         })}
       </div>
     );
   };
 
   return (
-    <div style={{margin:10}}>
-      <input
-        type="text"
-        onChange={(e) => setNewtodo(e.target.value)}
-        value={newtodo}
-      />
-      <button
-        onClick={() => {
-          // addTodo();
-          if (newtodo) {
-            setTodo([
-              ...todo,
-              {
-                id: Date.now(),
-                item: newtodo,
-                isDone: false,
-              },
-            ]);
-            setNewtodo('');
-          }
-        }}
-      >
-        Add Todo
-      </button>
+    <div style={{ margin: 10 }}>
+      <Todoinput todo={todo} setTodo={setTodo} />
       <Showtodo />
     </div>
   );
