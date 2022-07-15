@@ -11,9 +11,9 @@ const Tictactoe = () => {
   const handdleChange =(i)=> {
      state[i] = 'X'
      setState(state);
-     console.log(state);
+     
   }
-
+  console.log(state);
   return (
     <div className='tic_tac_toe' >
       <h1>Tic Tac Toe</h1>
