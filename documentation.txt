@@ -78,7 +78,7 @@ Lecture lists (instructor - Ritesh Firodiya)
 React Intro: https://course.masaischool.com/lectures/27717 --done
 State, Props And Conditional Rendering: https://course.masaischool.com/lectures/27774 --done
 Listing keys, conditional rendering: https://course.masaischool.com/lectures/27873 --done
-React State Management and Uplifiting: https://course.masaischool.com/lectures/27922
+React State Management and Uplifiting: https://course.masaischool.com/lectures/27922 --done
 PSC: https://course.masaischool.com/lectures/28019
 UseEffect -1: https://course.masaischool.com/lectures/28174
 UseEffect -2: https://course.masaischool.com/lectures/28175
