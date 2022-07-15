@@ -3,18 +3,11 @@ import { useState } from 'react';
 import '../../style/Todo.css';
 import Todoinput from './Todoinput';
 import Todolist from './Todolist';
+const axios = require('axios');
+
 
 const Todo = () => {
   const [todo, setTodo] = useState([]);
-
-  //   const addTodo = () => {
-  //     todo.push({
-  //       id: new Date(),
-  //       item: newtodo,
-  //       isDone: false,
-  //     });
-  //     setTodo(todo);
-  //   };
 
   const deleteHandle = (todoid) => {
     const afterDelete = todo.filter((e) => {

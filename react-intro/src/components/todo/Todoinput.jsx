@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import uniqid from 'uniqid';
 
 const Todoinput = ({ todo, setTodo }) => {
   const [newtodo, setNewtodo] = useState('');
@@ -16,7 +17,7 @@ const Todoinput = ({ todo, setTodo }) => {
             setTodo([
               ...todo,
               {
-                id: Date.now(),
+                id: uniqid(),
                 item: newtodo,
                 isDone: false,
               },

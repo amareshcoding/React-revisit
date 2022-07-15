@@ -23,10 +23,12 @@
 }
 .todo_btn{
      height: 2rem;
-     border: 0;
-     border-radius: 5px;
-     background-color: rgb(248, 140, 140);
-     color: black;
+     width: 1.7rem;
+}
+.todo_edit{
+     height: 2rem;
+     width: 1.7rem;
+     
 }
 .striked{
      width: 70%;
