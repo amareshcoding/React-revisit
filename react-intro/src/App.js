@@ -6,15 +6,15 @@ import Counter from './components/counter/Counter';
 import Parent from './components/Propssending/Parent';
 import Todo from './components/todo/Todo';
 
-
 function App() {
+  const carddata = [
+    {
+      src: 'https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg',
+      head: 'Lorem ipsum dolor sit amet amet consectetur.',
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing elit. Provident esse, eveniet quam quis unde ',
+    },
+  ];
 
-  const carddata = [{
-    src :'https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg',
-    head: 'Lorem ipsum dolor sit amet amet consectetur.',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing elit. Provident esse, eveniet quam quis unde '
-  }];
- 
   const [toggle, setToggle] = useState(false);
   return (
     <div>
@@ -36,8 +36,8 @@ function App() {
       </div> */}
 
       {/* <Counter/> */}
-      <hr/>
-      <Todo/>
+      <hr />
+      <Todo />
       {/* <hr/> */}
 
       {/* <div>

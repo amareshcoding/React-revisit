@@ -6,31 +6,37 @@ import Todoinput from './Todoinput';
 import Todolist from './Todolist';
 const axios = require('axios');
 
-
 const Todo = () => {
   const [todo, setTodo] = useState([]);
 
-  useEffect( ()=>{
+  useEffect(() => {
     getData();
-  },[]);
+  }, []);
 
-  const getData = async () =>{
+  const getData = async () => {
     const data = await axios.get('http://localhost:8080/todos');
-    // console.log(data.data);
     setTodo([...data.data]);
-  }
+    console.log(data);
+  };
 
   const storeData = (inputTodo) => {
-    axios.post('http://localhost:8080/todos', inputTodo);
-  }
+    axios.post('http://localhost:8080/todos', inputTodo).then((res) => {
+      getData();
+    });
+  };
 
   const deleteHandle = (todoid) => {
-    const afterDelete = todo.filter((e) => {
-      return e.id !== todoid;
+    console.log(todoid);
+    axios.delete(`http://localhost:8080/todos/${todoid}`).then((res) => {
+      getData();
     });
-
-    setTodo(afterDelete);
+    // const afterDelete = todo.filter((e) => {
+    //   return e.id !== todoid;
+    // });
+    // setTodo(afterDelete);
   };
+
+  
 
   const Showtodo = () => {
     return (

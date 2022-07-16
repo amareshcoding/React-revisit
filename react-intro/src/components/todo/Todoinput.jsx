@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import uniqid from 'uniqid';
-import { Button } from '@chakra-ui/react';
+
 
 const Todoinput = ({ todo, storeData }) => {
   const [newtodo, setNewtodo] = useState('');
@@ -12,8 +12,7 @@ const Todoinput = ({ todo, storeData }) => {
         value={newtodo}
       />
 
-      <Button
-        colorScheme="twitter"
+      <button
         onClick={() => {
           // addTodo();
           if (newtodo) {
@@ -27,7 +26,7 @@ const Todoinput = ({ todo, storeData }) => {
         }}
       >
         Add Todo
-      </Button>
+      </button>
     </div>
   );
 };
