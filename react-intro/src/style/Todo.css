@@ -15,22 +15,20 @@
 }
 .todo_text{
      width: 70%;
-     color: black;
+     color: rgb(48, 31, 31);
      text-align: left;
+     font-size: 22px;
      /* background-color: blue; */
 }
-.todo_btn{
+.todo_icon{
      height: 2rem;
      width: 1.7rem;
 }
-.todo_edit{
-     height: 2rem;
-     width: 1.7rem;
-     
-}
+
 .striked{
      width: 70%;
      color: green;
      text-align: left;
      text-decoration: line-through;
+     font-size: 22px;
 }

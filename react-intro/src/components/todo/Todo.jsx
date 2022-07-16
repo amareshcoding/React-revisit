@@ -16,7 +16,7 @@ const Todo = () => {
   const getData = async () => {
     const data = await axios.get('http://localhost:8080/todos');
     setTodo([...data.data]);
-    console.log(data);
+    // console.log(data);
   };
 
   const storeData = (inputTodo) => {
@@ -26,7 +26,7 @@ const Todo = () => {
   };
 
   const deleteHandle = (todoid) => {
-    console.log(todoid);
+    // console.log(todoid);
     axios.delete(`http://localhost:8080/todos/${todoid}`).then((res) => {
       getData();
     });
@@ -36,13 +36,26 @@ const Todo = () => {
     // setTodo(afterDelete);
   };
 
-  
+  const changeStatus = (todoid, updateTodo) => {
+    axios
+      .patch(`http://localhost:8080/todos/${todoid}`, updateTodo)
+      .then((res) => {
+        getData();
+      });
+  };
 
   const Showtodo = () => {
     return (
       <div className="todo_container">
         {todo.map((e) => {
-          return <Todolist key={e.id} todo={e} onDelete={deleteHandle} />;
+          return (
+            <Todolist
+              key={e.id}
+              todo={e}
+              onDelete={deleteHandle}
+              onUpdate={changeStatus}
+            />
+          );
         })}
       </div>
     );
