@@ -10,6 +10,7 @@ const Todolist = ({ todo, onDelete }) => {
   return (
     <div className="todo_div">
       {/* <FcCheckmark></FcCheckmark> */}
+      
       <input
         type="checkbox"
         checked={isDone}

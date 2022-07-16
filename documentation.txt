@@ -70,6 +70,7 @@ passing information to a child component
 
 15>Stateuplifting();
 passing information from child to parent
+Documentation
 
 
 

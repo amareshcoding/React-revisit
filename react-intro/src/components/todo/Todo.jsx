@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { useState } from 'react';
 import '../../style/Todo.css';
 import Todoinput from './Todoinput';
@@ -8,6 +9,20 @@ const axios = require('axios');
 
 const Todo = () => {
   const [todo, setTodo] = useState([]);
+
+  useEffect( ()=>{
+    getData();
+  },[]);
+
+  const getData = async () =>{
+    const data = await axios.get('http://localhost:8080/todos');
+    // console.log(data.data);
+    setTodo([...data.data]);
+  }
+
+  const storeData = (inputTodo) => {
+    axios.post('http://localhost:8080/todos', inputTodo);
+  }
 
   const deleteHandle = (todoid) => {
     const afterDelete = todo.filter((e) => {
@@ -29,7 +44,7 @@ const Todo = () => {
 
   return (
     <div style={{ margin: 10 }}>
-      <Todoinput todo={todo} setTodo={setTodo} />
+      <Todoinput todo={todo} storeData={storeData} />
       <Showtodo />
     </div>
   );
