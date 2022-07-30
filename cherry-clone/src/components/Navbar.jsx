@@ -1,14 +1,14 @@
 import React from 'react';
-import '../final.css'
+
 import logo from'../assets/logo.svg'
-const Navbar = () => {
+const Navbar = ({info}) => {
   return (
     <section className="navbar">
       <div className="container">
         <img src={logo} alt="logo" className="logo" />
         <div className="location">
-          <span className="city">Balasore</span>
-          <span className="state">Odisha, India</span>
+          <span className="city">{info.city}</span>
+          <span className="state">{info.state}, {info.country}</span>
         </div>
         <div className="navbar-options">
           <div className="navbar-option">
