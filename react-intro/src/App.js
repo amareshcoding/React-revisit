@@ -3,6 +3,7 @@ import './App.css';
 import Button from './components/button/Button';
 import Card from './components/card/Card';
 import Counter from './components/counter/Counter';
+import Form from './components/form/Form';
 import Parent from './components/Propssending/Parent';
 import Todo from './components/todo/Todo';
 
@@ -37,7 +38,7 @@ function App() {
 
       {/* <Counter/> */}
       <hr />
-      <Todo />
+      {/* <Todo /> */}
       {/* <hr/> */}
 
       {/* <div>
@@ -46,6 +47,7 @@ function App() {
       </div> */}
 
       {/* <Parent/> */}
+      <Form/>
     </div>
   );
 }
