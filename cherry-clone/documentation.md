@@ -1,10 +1,15 @@
-project 
+//project 
 
-Navbar - logo, searchbar, icons
+Navbar 
+    Location
+    icons
 
-Image Scaling Component
+Offer Section 
+     Offer items
 
-Filter
+Filters 
+     filter
 
-List Resturant Component
-Resturant Component
+Resturant Component 
+     Resturant items
+
