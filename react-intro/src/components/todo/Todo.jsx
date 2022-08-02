@@ -16,7 +16,6 @@ const Todo = () => {
   const getData = async () => {
     const data = await axios.get('http://localhost:8080/todos');
     setTodo([...data.data]);
-    // console.log(data);
   };
 
   const storeData = (inputTodo) => {
